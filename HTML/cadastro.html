@@ -1,1 +1,102 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cadastro | Viação Curitiba</title>
+
+    <link rel="stylesheet" href="../CSS/style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>🚍 Viação Curitiba</h1>
+
+    </header>
+
+
+    <main>
+
+        <div class="container">
+
+            <h2>Solicitação de Cartão Transporte</h2>
+
+            <p class="descricao">
+                Preencha seus dados para solicitar
+                o cartão transporte.
+            </p>
+
+
+            <form id="formCadastro">
+
+                <label for="nome">
+                    Nome Completo
+                </label>
+
+                <input type="text" id="nome" placeholder="Digite seu nome completo">
+
+                <label for="cpf">
+                    CPF
+                </label>
+
+                <input type="text" id="cpf" placeholder="Digite apenas os números" maxlength="11">
+
+
+                <label for="email">
+                    E-mail
+                </label>
+
+                <input type="email" id="email" placeholder="exemplo@email.com">
+
+                <label for="telefone">
+                    Telefone
+                </label>
+
+                <input type="text" id="telefone" placeholder="Ex: 41999999999" maxlength="11">
+
+                <label for="dataNascimento">
+                    Data de Nascimento
+                </label>
+
+                <input type="date" id="dataNascimento">
+
+
+                <button type="submit">
+                    Solicitar Cartão
+                </button>
+
+                <a href="index.html" class="btn-voltar">
+                    ← Voltar para o início
+                </a>
+
+
+                <div id="mensagem"></div>
+
+            </form>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © 2026 Viação Curitiba - Projeto acadêmico
+        </p>
+
+    </footer>
+
+
+    <script src="js/cadastro.js"></script>
+
+</body>
+
+</html>
